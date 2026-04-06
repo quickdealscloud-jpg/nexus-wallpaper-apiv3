@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/wallpaper.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    { "src": "/wallpaper.png", "dest": "/api/wallpaper" },
+    { "src": "/", "dest": "/api/wallpaper" }
+  ]
+}
